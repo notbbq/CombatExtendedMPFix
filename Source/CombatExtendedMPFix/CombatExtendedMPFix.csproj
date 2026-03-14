@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>CombatExtendedMPFix</AssemblyName>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--Rimworld core-->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Harmony -->
+     <Reference Include="0Harmony">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+      <Private>False</Private>
+     </Reference>
+
+    <!-- ZML API -->
+     <Reference Include="0MultiplayerAPI">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2606448745\1.6\Assemblies\0MultiplayerAPI.dll</HintPath>
+      <Private>False</Private>
+     </Reference>
+
+     <!-- CE -->
+      <Reference Include="CombatExtended">
+        <HintPath>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100\2890901044\Assemblies\CombatExtended.dll</HintPath>
+        <Private>False</Private>
+      </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>CombatExtendedMPFix</name>
+    <author>bakaby</author>
+    <packageId>bakab.CombatExtendedMPFix</packageId>
+    <description>Fixes Combat Extended SyncWorker registration failures for MP 0.6</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>CETeam.CombatExtended</packageId>
+            <displayName>Combat Extended</displayName>
+        </li>
+        <li>
+            <packageId>rwmt.Multiplayer</packageId>
+            <displayName>Multiplayer</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>CETeam.CombatExtended</li>
+        <li>rwmt.Multiplayer</li>
+        <li>rwmt.MultiplayerCompatibility</li>
+    </loadAfter>
+</ModMetaData>
